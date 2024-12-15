@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Package - Kg Jkin Xtreme Park</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="background">
+    <div class="overlay">
+      <div class="content">
+        <h2>Add New Package</h2>
+        <form id="addPackageForm" action="AddPackage" method="post">
+          <label for="packageName" class="label">Package Name</label>
+          <input type="text" id="packageName" name="packageName" required>
+          
+          <label for="price" class="label">Price</label>
+          <input type="number" id="price" name="price" step="0.01" required>
+          
+          <label for="duration" class="label">Duration</label>
+          <input type="text" id="duration" name="duration"  required>
+          
+          <label for="additionalDetails" class="label">Additional Details</label>
+          <input type="text" id="additionalDetails" name="additionalDetails"  required>
+          
+          <button type="submit" class="button">Add Package</button>
+       
+        </form>
+      </div>
+    </div>
+    
+  <!-- Navigation Bar with Home Button -->
+    <nav>
+        <div class="logo">
+            <a href="index.html">Kg Jkin</a>
+        </div>
+    </nav>
+  </div>
+  
+
+</body>
+</html>
